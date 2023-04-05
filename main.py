@@ -1,3 +1,5 @@
+from microbit import speech
+
 def on_button_pressed_a():
     global threshold
     radio.send_string("hi")
