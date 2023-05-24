@@ -21,7 +21,7 @@ function anal2 () {
 let temp = 0
 let sounds: string[] = []
 OLED.init(128, 64)
-let threshold = 90
+let threshold = 50
 let strip = neopixel.create(DigitalPin.P12, 1, NeoPixelMode.RGBW)
 sounds = [
 music.createSoundEffect(WaveShape.Sawtooth, 464, 598, 255, 0, 500, SoundExpressionEffect.Tremolo, InterpolationCurve.Curve),
